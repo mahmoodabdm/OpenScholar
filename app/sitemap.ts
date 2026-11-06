@@ -1,0 +1,2 @@
+import type { MetadataRoute } from 'next';
+export default function sitemap(): MetadataRoute.Sitemap { const base='https://noorscholar.com'; const pages=['','search','citation-generator','doi-lookup','bibtex-generator','author-search','institution-search','trending-topics','apa-guide','mla-guide','chicago-guide','how-it-works','features','free-tools','pricing','blog','about','contact','faq','privacy','terms','sitemap']; return pages.map(p=>({url:`${base}/${p}`,lastModified:new Date(),changeFrequency:'weekly',priority:p==='' ? 1:0.8})); }

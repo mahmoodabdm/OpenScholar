@@ -1,0 +1,3 @@
+
+export const metadata={title:'Trending Topics - Noor Scholar',description:'Trending research topics.'};
+export default function Page(){ return (<div className="container"><h1>Trending Topics</h1><div><p>Click a topic to search live.</p><ul><li><a href='/search?q=Deep Learning'>Deep Learning Transformers</a></li><li><a href='/search?q=CRISPR'>CRISPR Gene Editing</a></li><li><a href='/search?q=Quantum Computing'>Quantum Computing Algorithms</a></li><li><a href='/search?q=Renewable Energy'>Renewable Energy Storage</a></li><li><a href='/search?q=Microplastics'>Microplastics in Marine Biology</a></li><li><a href='/search?q=Alzheimer'>Alzheimer Disease Biomarkers</a></li></ul></div></div>); }

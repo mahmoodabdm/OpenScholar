@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noorscholar.com/sitemap.xml

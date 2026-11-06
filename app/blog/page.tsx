@@ -1,0 +1,3 @@
+
+export const metadata={title:'Blog - Noor Scholar',description:'Academic tips for international students.'};
+export default function Page(){ return (<div className="container"><h1>Blog</h1><div><article class='card'><h3>How to Find Free Research Papers</h3><p>Use OpenAlex and Noor Scholar to find legal open-access PDFs...</p></article><article class='card' style='margin-top:12px'><h3>APA vs MLA: Which to Use?</h3><p>APA for science, MLA for humanities...</p></article><article class='card' style='margin-top:12px'><h3>5 Tips for International Students</h3><p>How to write literature reviews faster...</p></article></div></div>); }

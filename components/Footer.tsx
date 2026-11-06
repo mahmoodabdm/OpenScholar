@@ -1,0 +1,6 @@
+
+import Link from 'next/link';
+export default function Footer(){
+  const pages=[['Home','/'],['Search','/search'],['Citation Generator','/citation-generator'],['DOI Lookup','/doi-lookup'],['BibTeX Generator','/bibtex-generator'],['Author Search','/author-search'],['Institution Search','/institution-search'],['Trending Topics','/trending-topics'],['APA Guide','/apa-guide'],['MLA Guide','/mla-guide'],['Chicago Guide','/chicago-guide'],['How It Works','/how-it-works'],['Features','/features'],['Free Tools','/free-tools'],['Pricing','/pricing'],['Blog','/blog'],['About','/about'],['Contact','/contact'],['FAQ','/faq'],['Privacy','/privacy'],['Terms','/terms'],['Sitemap','/sitemap']];
+  return (<footer style={{background:'#0F172A',color:'#CBD5E1',padding:'40px 20px',marginTop:60}}><div style={{maxWidth:1200,margin:'0 auto'}}><h3 style={{color:'#fff'}}>Noor Scholar - Free Academic Search</h3><p>250M+ works from OpenAlex. No account, no ads.</p><div style={{display:'flex',flexWrap:'wrap',gap:12,marginTop:16}}>{pages.map(([l,h])=>(<Link key={h} href={h} style={{color:'#CBD5E1',fontSize:13}}>{l}</Link>))}</div><p style={{marginTop:20,fontSize:12}}>© 2026 Noor Scholar. Built on OpenAlex.</p></div></footer>);
+}
